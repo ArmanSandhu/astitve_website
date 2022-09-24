@@ -1,0 +1,12 @@
+.header {
+    background-color: var(--secondary-dark);
+    width: 1400px;
+    margin: 0 auto;
+    min-height: 200px;
+}
+
+@media screen and (max-width: 1080px) {
+    .header {
+      width: 1000px;
+    }
+  }

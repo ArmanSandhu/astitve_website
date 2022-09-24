@@ -1,0 +1,33 @@
+.dropdown_menu {
+    list-style: none;
+    text-align: start;
+    top: 80px;
+}
+
+
+.nav_item ul {
+    position: absolute;
+    display: block;
+}
+
+.dropdown_menu li {
+    background-color: var(--primary-dark);
+}
+
+.dropdown_link {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+.dropdown_link:hover {
+    background-color: var(--primary-light);
+    transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 960px) {
+    .fa-caret-down {
+        display: none;
+    }
+}
