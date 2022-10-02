@@ -47,6 +47,7 @@
     height: 80px;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .nav_links {
@@ -106,6 +107,23 @@ https://www.youtube.com/watch?v=qkYsiVcvb1o
 
     .nav_menu.active {
         transform: translate(-50%, 10%);
+    }
+
+    .nav_links {
+        align-self: center;
+        width: 100%;
+        margin: 0 1.8rem;
+    }
+    
+    .nav_links:hover{
+        color: black;
+    }
+
+    .btn {
+        align-self: center;
+        width: 100%;
+        margin: 0 60px;
+        color: black;
     }
 
     .menu_icon {
