@@ -14,6 +14,7 @@
 .content_container {
   margin: auto;
   width: 70%;
+  flex-grow: 1;
 }
 
 .nav_divider {

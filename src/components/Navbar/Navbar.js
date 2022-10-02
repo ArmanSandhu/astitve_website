@@ -31,10 +31,11 @@ function Navbar() {
         <nav className="navbar_container">
             <Link to='/' className='site_title'>
                 Astitve
-            </Link>
+            </Link> 
 
             <div className='navbar'>
                 <ul className={click ? 'nav_menu active' : 'nav_menu'}>
+
                     <li className='nav_item'>
                         <Link to='/' className='nav_links' onClick={closeMobileMenu}>Home</Link>
                     </li>
@@ -59,8 +60,8 @@ function Navbar() {
             </div>
 
             <div className='menu_icon' onClick={handleMenuClick}>
-                    <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-            </div>
+                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            </div>    
         </nav>
     );
 }
